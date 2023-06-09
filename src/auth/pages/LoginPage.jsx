@@ -20,11 +20,20 @@ export const LoginPage = () => {
       <Typography variant="h5" sx={{mb:1}}>Login</Typography> 
       <form>
         <Grid container>
-          <Grid item>
+          <Grid item xs={12} sx={{mt:2}}>
             <TextField 
             label="correo"
             type="email"
             placeholder="correo@google.com"
+            fullWidth
+            
+            />
+          </Grid>
+           <Grid item xs={12} sx={{mt:2}}>
+            <TextField 
+            label="Contraseña"
+            type="password"
+            placeholder="Contraseña"
             fullWidth
             
             />
