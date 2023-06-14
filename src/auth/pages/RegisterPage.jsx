@@ -26,10 +26,11 @@ export const RegisterPage = () => {
     emailValid,
     passwordValid,
   } = useForm(formData);
+  console.log(displayNameValid)
 
   const onSubmit = (event) => {
     event.preventDefault();
-    console.log(formState,formValidations);
+    console.log(formState);
   };
   return (
     <AuthLayout title="Login">
