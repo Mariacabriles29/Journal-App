@@ -41,7 +41,7 @@ export const registerUserWithEmailPassword = async({email, password,displayName}
         
         return {
             ok:true,
-            uid,photoUrl
+            uid,photoURL
         }
 
         
